@@ -1,0 +1,14 @@
+.md-header
+{
+    background-image:  linear-gradient(to right, rgb(58, 92, 84) , rgb(213, 173, 0));
+}
+
+.md-tabs
+{
+    background-image:  linear-gradient(to right, rgb(58, 92, 84) , rgb(213, 173, 0));
+}
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}

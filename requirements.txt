@@ -1,0 +1,12 @@
+# ===================================================================
+# plottwist-docs requirements file
+# ===================================================================
+mkdocs
+mkdocs-material
+pathlib
+mkdocs-markdownextradata-plugin
+markdown-include
+sphinx
+sphinx_rtd_theme
+artellapipe
+artellapipe-launcher

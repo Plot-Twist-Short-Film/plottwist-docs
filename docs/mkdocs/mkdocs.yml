@@ -1,0 +1,54 @@
+site_name: Plot Twist - Pipeline Docs
+dev_addr: '127.0.0.1:9000'
+sticky_navigation: False
+nav:
+  - Home: index.md
+  - Artella App:
+    - What's Artella App?: pipeline/artella/app.md
+    - Installing Artella App: pipeline/artella/installing.md
+    - Managing the Artella App: pipeline/artella/managing.md
+  - Plot Twist Launcher:
+    - What's Plot Twist Launcher?: pipeline/launcher/app.md
+    - Installing Plot Twist Launcher: pipeline/launcher/installation.md
+    - Using Plot Twist Launcher: pipeline/launcher/usage.md
+    - Uninstalling Plot Twist Launcher: pipeline/launcher/uninstall.md
+  - Plot Twist Pipeline:
+    - Software:
+        - Versions: pipeline/software/versions.md
+    - Core Concepts:
+        - Props: pipeline/props.md
+    - Tools:
+      - Welcome: pipeline/tools/welcome.md
+      - Tray: pipeline/tools/tray.md
+      - Shelf: pipeline/tools/shelf.md
+      - Changelog: pipeline/tools/changelog.md
+      - Assets Manager: pipeline/tools/assetsmanager.md
+      - Artella Manager: pipeline/tools/artellamanager.md
+      - Artella Uploader: pipeline/tools/artellauploader.md
+    - Departments:
+        - Modeling:
+            - Set Dressing - Model Guide: pipeline/departments/modeling/dressingassetsmodelguide.md
+    - FAQ:
+      - How to set Plot Twist Project?: pipeline/faq/setproject.md
+      - How to save a file?: pipeline/faq/savefile.md
+      - How to lock/unlock a file?: pipeline/faq/lockunlockfile.md
+      - How to upload a new file version?: pipeline/faq/newversion.md
+theme:
+  name: 'material'
+  logo: 'img/plottwist.png'
+  feature:
+    tabs: true
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - pymdownx.tasklist
+plugins:
+  - markdownextradata: {}
+extra:
+  project:
+    name: "Plot Twist"
+    exe: "plottwist_launcher.exe"
+extra_css:
+  - 'stylesheets/plottwist.css'
