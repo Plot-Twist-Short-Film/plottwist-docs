@@ -6,7 +6,7 @@ Welcome to plottwist documentation!
    :caption: Contents:
 
    plottwist-modules
-   PlotTwist Pipeline <https://plottwist-short-film.github.io/plottwist-docs/pipeline>
+   PlotTwist Pipeline <https://plot-twist-short-film.github.io/plottwist-docs/pipeline>
 
 Indices and tables
 ==================
