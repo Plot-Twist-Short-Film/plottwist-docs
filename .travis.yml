@@ -7,7 +7,7 @@ script:
   - mv docs/mkdocs/site .
   - mkdir plottwist_repos
   - cd plottwist_repos
-  - git clone https://github.com/PlotTwist-Short-Film/plottwist.git
+  - git clone https://github.com/Plot-Twist-Short-Film/plottwist.git
   - cd ..
   - sphinx-apidoc -f -e -o docs/sphinx plottwist_repos/plottwist/plottwist --tocfile plottwist-modules
   - sphinx-build -M html ./docs/sphinx ./
