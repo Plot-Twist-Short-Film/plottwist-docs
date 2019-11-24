@@ -3,6 +3,8 @@ dev_addr: '127.0.0.1:9000'
 sticky_navigation: False
 nav:
   - Home: index.md
+  - First Steps:
+    - Setup Guide: setup.md
   - Artella App:
     - What's Artella App?: pipeline/artella/app.md
     - Installing Artella App: pipeline/artella/installing.md
@@ -15,8 +17,10 @@ nav:
   - Plot Twist Pipeline:
     - Software:
         - Versions: pipeline/software/versions.md
-    - Core Concepts:
-        - Props: pipeline/props.md
+        - Installation:
+            - Python: pipeline/software/installingpython.md
+            - Maya: pipeline/software/installingmaya.md
+            - Arnold: pipeline/software/installingarnold.md
     - Tools:
       - Welcome: pipeline/tools/welcome.md
       - Tray: pipeline/tools/tray.md

@@ -1,12 +1,7 @@
-### **Instructions**
+???- example "Windows"
 
-!!! error
-    If you experience problems during {{ project.name }} Launcher installation please force uninstall them.
-
-### **Installing {{ project.name}} in Windows**
-
-???+ example "Windows"
-
+    !!! error
+        If you experience problems during {{ project.name }} Launcher installation please force uninstall them.
 
     1. **Download the {{ project.name }} Launcher Executable**
         * Visit <a href="https://www.artella.com/" target="_blank" rel="noopener">www.artella.com</a>
