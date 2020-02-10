@@ -11,7 +11,7 @@ your favorite DCC (Digital Content Creation). It replaces DCC shortcut and does 
 * Creates a **console** that shows the initialization status.
 * Updates **Artella Python Paths** to make sure Artella functionality is working on DCC startup.
 * Launches **Artella App** automatically.
-* Checks if **{{ project.name }} Tools** are already in system and if not:
+* Checks if !!!**{{ project.name }} Tools** are already in system and if not:
     * Allows user to select a **custom installation folder** for the tools.
     **Downloads** and **installs** {{ project.name }} Tools in selected folder.
 * **Updates** {{ project.name }} Tools to the latest available version.
