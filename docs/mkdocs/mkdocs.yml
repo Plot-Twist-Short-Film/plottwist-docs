@@ -39,6 +39,12 @@ nav:
       - How to save a file?: pipeline/faq/savefile.md
       - How to lock/unlock a file?: pipeline/faq/lockunlockfile.md
       - How to upload a new file version?: pipeline/faq/newversion.md
+  - Plot Twist Development:
+      - Development Setup: pipeline/dev/setup.md
+      - ArtellaPipe: pipeline/dev/artellapipe.md
+      - How to create new tools: pipeline/dev/tools.md
+      - How to deploy new versions of the pipeline: pipeline/dev/deploy.md
+      - How to add new documentation: pipeline/dev/documentation.md
 theme:
   name: 'material'
   logo: 'img/plottwist.png'
