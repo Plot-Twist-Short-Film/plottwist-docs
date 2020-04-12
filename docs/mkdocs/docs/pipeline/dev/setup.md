@@ -19,7 +19,7 @@ repositories. My recommendation would be **[GitKraken](https://www.gitkraken.com
 **[SourceTree](https://www.sourcetreeapp.com/)** or**[GitHub Desktop](https://desktop.github.com/)**. 
 If you have another preferred choice you can use it, of course.
 
-**Autodesk Maya**: A big part of our pipeline it's oriented to be used inside DCCs. Our core target DCC is Maya but 
+* **Autodesk Maya**: A big part of our pipeline it's oriented to be used inside DCCs. Our core target DCC is Maya but 
 currently our pipeline supports different DCCs such as Houdini or Nuke. Depending of the department you are going to 
 work with you will need to download more or less DCCs. The only that is mandatory for all departments is Maya.
 
@@ -34,7 +34,7 @@ the following command:
 pip install virtualenv
 ```
 
-## **Repositories**
+## **Setup**
 
 All {{project.name}} repositories are included inside a **[GitHub Organization](https://github.com/Plot-Twist-Short-Film)**.
 
@@ -43,21 +43,12 @@ This library basically give us a core implementation of different tools to manag
 to extend already tools or add new tools in an easy way.
 
 !!!info
-    You can find more information about **ArtellaPipe** in the following link.
+    You can find more information about **ArtellaPipe** in the following **[link](../artellapipe)** .
     
-So, to start with, you will need to clone all Plot Twist repositories into your local drive. To automatize this process
-you will be able to find some scripts in the following repository: **[plottwist-dev-setup](https://github.com/Plot-Twist-Short-Film/plottwist-dev-setup)**.
-Just follow the instructions that you will find in the README.rst file.
+To setup our {{project.name}} development environment we will need to:
 
-Once you have all the repositories downloaded you will be able to move them anywhere into your computer. Also, now you 
-can, depending on the selected IDE, configure the project and so on.
+1. Clone all Plot Twist repositories and also ArtellaPipe ones (optional).
+2. Setup Plot Twist development virtual environment with proper requirements.
 
-## **Development Virtual Environment**
-
-During all our development we are going to use a virtual environment for 2 main purposes:
-
-1. If we need to add new package dependencies we can add them very easily to our development environment.
-2. Is very easy to add or remove local repositories to that virtual environment, so we can control very precisely 
-which repos we are editing and which no.
-
-To setup your development virtual environment for Plot Twist follow the next steps:
+To do this setup, please go to the following repository:  **[plottwist-dev-setup](https://github.com/Plot-Twist-Short-Film/plottwist-dev-setup)** 
+and follow the instructions that you will find in the README.rst file.
