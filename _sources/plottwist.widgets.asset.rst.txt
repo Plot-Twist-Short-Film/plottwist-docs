@@ -1,0 +1,7 @@
+plottwist.widgets.asset module
+==============================
+
+.. automodule:: plottwist.widgets.asset
+   :members:
+   :undoc-members:
+   :show-inheritance:

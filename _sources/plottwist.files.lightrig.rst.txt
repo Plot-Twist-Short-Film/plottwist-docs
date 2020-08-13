@@ -1,0 +1,7 @@
+plottwist.files.lightrig module
+===============================
+
+.. automodule:: plottwist.files.lightrig
+   :members:
+   :undoc-members:
+   :show-inheritance:

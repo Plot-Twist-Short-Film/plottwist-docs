@@ -1,0 +1,25 @@
+plottwist.files package
+=======================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.files.alembic
+   plottwist.files.groom
+   plottwist.files.lightrig
+   plottwist.files.model
+   plottwist.files.rig
+   plottwist.files.shading
+   plottwist.files.standin
+   plottwist.files.texture
+
+Module contents
+---------------
+
+.. automodule:: plottwist.files
+   :members:
+   :undoc-members:
+   :show-inheritance:

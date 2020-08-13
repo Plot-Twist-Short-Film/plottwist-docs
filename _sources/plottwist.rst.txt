@@ -1,0 +1,34 @@
+plottwist package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.assets
+   plottwist.core
+   plottwist.files
+   plottwist.libs
+   plottwist.managers
+   plottwist.tools
+   plottwist.toolsets
+   plottwist.widgets
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.loader
+   plottwist.register
+
+Module contents
+---------------
+
+.. automodule:: plottwist
+   :members:
+   :undoc-members:
+   :show-inheritance:

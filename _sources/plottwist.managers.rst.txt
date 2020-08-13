@@ -1,0 +1,20 @@
+plottwist.managers package
+==========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.managers.assets
+   plottwist.managers.menu
+   plottwist.managers.ocio
+
+Module contents
+---------------
+
+.. automodule:: plottwist.managers
+   :members:
+   :undoc-members:
+   :show-inheritance:

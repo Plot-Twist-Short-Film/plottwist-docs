@@ -1,0 +1,7 @@
+plottwist.core.project module
+=============================
+
+.. automodule:: plottwist.core.project
+   :members:
+   :undoc-members:
+   :show-inheritance:

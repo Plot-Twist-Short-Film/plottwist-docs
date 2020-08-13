@@ -1,0 +1,19 @@
+plottwist.widgets package
+=========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.widgets.asset
+   plottwist.widgets.window
+
+Module contents
+---------------
+
+.. automodule:: plottwist.widgets
+   :members:
+   :undoc-members:
+   :show-inheritance:

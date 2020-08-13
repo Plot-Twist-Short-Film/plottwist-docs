@@ -1,0 +1,1328 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.6">
+    
+    
+      
+        <title>How to lock/unlock a file? - Plot Twist - Pipeline Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.63b94e9e.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/plottwist.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#locking-unlocking-files-in-artella" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../../.." title="Plot Twist - Pipeline Docs" class="md-header-nav__button md-logo" aria-label="Plot Twist - Pipeline Docs">
+      
+  <img src="../../../img/plottwist.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Plot Twist - Pipeline Docs
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              How to lock/unlock a file?
+            
+          </span>
+        </div>
+      
+    </div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Plot Twist - Pipeline Docs" class="md-nav__button md-logo" aria-label="Plot Twist - Pipeline Docs">
+      
+  <img src="../../../img/plottwist.png" alt="logo">
+
+    </a>
+    Plot Twist - Pipeline Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      First Steps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="First Steps" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        First Steps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../setup/" title="Setup Guide" class="md-nav__link">
+      Setup Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Artella App
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Artella App" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Artella App
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../artella/app/" title="What's Artella App?" class="md-nav__link">
+      What's Artella App?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../artella/installing/" title="Installing Artella App" class="md-nav__link">
+      Installing Artella App
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../artella/managing/" title="Managing the Artella App" class="md-nav__link">
+      Managing the Artella App
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Plot Twist Launcher
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Plot Twist Launcher" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Plot Twist Launcher
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../launcher/app/" title="What's Plot Twist Launcher?" class="md-nav__link">
+      What's Plot Twist Launcher?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../launcher/installation/" title="Installing Plot Twist Launcher" class="md-nav__link">
+      Installing Plot Twist Launcher
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../launcher/usage/" title="Using Plot Twist Launcher" class="md-nav__link">
+      Using Plot Twist Launcher
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../launcher/uninstall/" title="Uninstalling Plot Twist Launcher" class="md-nav__link">
+      Uninstalling Plot Twist Launcher
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Plot Twist Pipeline
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Plot Twist Pipeline" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Plot Twist Pipeline
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1" type="checkbox" id="nav-5-1">
+    
+    <label class="md-nav__link" for="nav-5-1">
+      Software
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Software" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Software
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../software/versions/" title="Versions" class="md-nav__link">
+      Versions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-1-2" type="checkbox" id="nav-5-1-2">
+    
+    <label class="md-nav__link" for="nav-5-1-2">
+      Installation
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Installation" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-1-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Installation
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../software/installingpython/" title="Python" class="md-nav__link">
+      Python
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../software/installingmaya/" title="Maya" class="md-nav__link">
+      Maya
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../software/installingarnold/" title="Arnold" class="md-nav__link">
+      Arnold
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-2" type="checkbox" id="nav-5-2">
+    
+    <label class="md-nav__link" for="nav-5-2">
+      Tools
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Tools" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Tools
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/welcome/" title="Welcome" class="md-nav__link">
+      Welcome
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/tray/" title="Tray" class="md-nav__link">
+      Tray
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/shelf/" title="Shelf" class="md-nav__link">
+      Shelf
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/changelog/" title="Changelog" class="md-nav__link">
+      Changelog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/assetsmanager/" title="Assets Manager" class="md-nav__link">
+      Assets Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/artellamanager/" title="Artella Manager" class="md-nav__link">
+      Artella Manager
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/artellauploader/" title="Artella Uploader" class="md-nav__link">
+      Artella Uploader
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/lightrigsmanager/" title="Light Rigs Manager" class="md-nav__link">
+      Light Rigs Manager
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-3" type="checkbox" id="nav-5-3">
+    
+    <label class="md-nav__link" for="nav-5-3">
+      Assets
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Assets" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Assets
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../assets/props/" title="Props" class="md-nav__link">
+      Props
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4" type="checkbox" id="nav-5-4">
+    
+    <label class="md-nav__link" for="nav-5-4">
+      Departments
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Departments" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Departments
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-4-1" type="checkbox" id="nav-5-4-1">
+    
+    <label class="md-nav__link" for="nav-5-4-1">
+      Modeling
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Modeling" data-md-level="3">
+      <label class="md-nav__title" for="nav-5-4-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Modeling
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../departments/modeling/dressingassetsmodelguide/" title="Set Dressing - Model Guide" class="md-nav__link">
+      Set Dressing - Model Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5-5" type="checkbox" id="nav-5-5" checked>
+    
+    <label class="md-nav__link" for="nav-5-5">
+      FAQ
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="FAQ" data-md-level="2">
+      <label class="md-nav__title" for="nav-5-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        FAQ
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../setproject/" title="How to set Plot Twist Project?" class="md-nav__link">
+      How to set Plot Twist Project?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../savefile/" title="How to save a file?" class="md-nav__link">
+      How to save a file?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        How to lock/unlock a file?
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="How to lock/unlock a file?" class="md-nav__link md-nav__link--active">
+      How to lock/unlock a file?
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lock-unlock-workflow" class="md-nav__link">
+    Lock &amp; Unlock Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lock-unlock-in-plot-twist" class="md-nav__link">
+    Lock &amp; Unlock in Plot Twist
+  </a>
+  
+    <nav class="md-nav" aria-label="Lock &amp; Unlock in Plot Twist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-artella-manager" class="md-nav__link">
+    Plot Twist Artella Manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-artella-uploader" class="md-nav__link">
+    Plot Twist Artella Uploader
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-lock-unlock-shortcuts" class="md-nav__link">
+    Plot Twist Lock &amp; Unlock Shortcuts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#artella-webpage" class="md-nav__link">
+    Artella webpage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../newversion/" title="How to upload a new file version?" class="md-nav__link">
+      How to upload a new file version?
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Plot Twist Development
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Plot Twist Development" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Plot Twist Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/setup/" title="Development Setup" class="md-nav__link">
+      Development Setup
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/artellapipe/" title="ArtellaPipe" class="md-nav__link">
+      ArtellaPipe
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/tools/" title="How to create new tools" class="md-nav__link">
+      How to create new tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/deploy/" title="How to deploy new versions of the pipeline" class="md-nav__link">
+      How to deploy new versions of the pipeline
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../dev/documentation/" title="How to add new documentation" class="md-nav__link">
+      How to add new documentation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lock-unlock-workflow" class="md-nav__link">
+    Lock &amp; Unlock Workflow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lock-unlock-in-plot-twist" class="md-nav__link">
+    Lock &amp; Unlock in Plot Twist
+  </a>
+  
+    <nav class="md-nav" aria-label="Lock &amp; Unlock in Plot Twist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-artella-manager" class="md-nav__link">
+    Plot Twist Artella Manager
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-artella-uploader" class="md-nav__link">
+    Plot Twist Artella Uploader
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plot-twist-lock-unlock-shortcuts" class="md-nav__link">
+    Plot Twist Lock &amp; Unlock Shortcuts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#artella-webpage" class="md-nav__link">
+    Artella webpage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="locking-unlocking-files-in-artella"><strong>Locking &amp; Unlocking Files in Artella</strong></h1>
+<p>Artella uses a lock/unlock system to allow artists to make sure that the file they're working on right now is not 
+modified by other user.</p>
+<h2 id="lock-unlock-workflow"><strong>Lock &amp; Unlock Workflow</strong></h2>
+<p><strong>Lock/Unlock</strong> workflow is explained in the following diagram:</p>
+<blockquote>
+<p>Artella Lock/Unlock Workflow
+<img alt="Artella Lock/Unlock Workflow" src="../../../img/faq/diagrams/lockunlock.png?style=centerme" /></p>
+</blockquote>
+<p>As you can see in the diagram, Artella lock/unlock system is composed by <strong>2 steps</strong>:</p>
+<ol>
+<li>When you want to work on a file, before starting to work on it you need to <strong>LOCK</strong> it. Doing this, you make sure that <strong>no other artist can edit that file</strong> while your are working on it.</li>
+<li>At this point you have <strong>2 options</strong>:<ol>
+<li>You are not happy with your changes and you want to <strong>"recover"</strong> the file to the <strong>initial state</strong> of the file when you started to work with it. To do this, just <strong>UNLOCK</strong> the file. </li>
+<li>You hare happy with your changes in you want to <strong>submit them to Artella</strong>. Just upload your changes to Artella server <strong>(New Version)</strong> and after that <strong>UNLOCK</strong> your file. Your changes won't be deleted because they are already stored in Artella server.</li>
+</ol>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Before unlocking a file, make sure that your changes are loaded into Artella (you need to create a new version
+of the file for that). Otherwise, your changes will be lost after the unlocking process.</p>
+</div>
+<hr />
+<h2 id="lock-unlock-in-plot-twist"><strong>Lock &amp; Unlock in Plot Twist</strong></h2>
+<p>When working in Plot Twist you have <strong>3 different ways</strong> to unlock &amp; unlock files.</p>
+<h3 id="plot-twist-artella-manager"><strong>Plot Twist Artella Manager</strong></h3>
+<details class="example" open="open"><summary>Artella Manager</summary><div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Using Artella Manager you can navigate easily through the files located in your local drive or the files +
+located in Artella server and lock/unlock files without the need of going to Artella webpage to find the file
+you want to lock or unlock.</p>
+<p>Also you can lock or unlock a file by giving the specific URL where the file is located in Artella server.</p>
+</div>
+<blockquote>
+<p>Open Plot Twist Artella Manager Tool
+<img alt="Artella Manager 1" src="../../../img/faq/lockunlock/manager_1.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>In Artella Manager Tool, make sure that you have Local tab opened and search the file you want to lock
+in the folders tree. This tree shows all the files of Plot Twist project that you have synced in your
+computer. Once you have the file, select it by pressing Left-Click on top of it.
+<img alt="Artella Manager 2" src="../../../img/faq/lockunlock/manager_2.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Open item contextual menu by pressing Right-click on top of it.
+<img alt="Artella Manager 3" src="../../../img/faq/lockunlock/manager_3.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Press <strong>Lock File</strong> button to lock the file
+<img alt="Artella Manager 4" src="../../../img/faq/lockunlock/manager_4.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Press <strong>Unlock File</strong> button to unlock the file
+<img alt="Artella Manager 5" src="../../../img/faq/lockunlock/manager_5.png?style=centerme" /></p>
+</blockquote>
+</details>
+<hr />
+<h3 id="plot-twist-artella-uploader"><strong>Plot Twist Artella Uploader</strong></h3>
+<details class="example" open="open"><summary>Artella Uploader</summary><div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Using Artella Uploader you can lock or unlock multiple multiples files located in a given path</p>
+</div>
+<blockquote>
+<p>Open Plot Twist Artella Uploader Tool
+<img alt="Artella Uploader 1" src="../../../img/faq/lockunlock/uploader_1.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Left click on Select Path button
+<img alt="Artella Uploader 2" src="../../../img/faq/lockunlock/uploader_2.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Select root folder. All files located in this folder and its subfolders will be loaded in the files list
+<img alt="Artella Uploader 3" src="../../../img/faq/lockunlock/uploader_3.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>After selecting the folder all the files will be loaded in the files list and the current version of the files
+in your Artella server will be checked. Wait until the process is complete.
+<img alt="Artella Uploader 4" src="../../../img/faq/lockunlock/uploader_4.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Make sure that only the items you want to lock are checked. By default, all items are checked. After that, press
+the <strong>Lock</strong> button
+<img alt="Artella Uploader 5" src="../../../img/faq/lockunlock/uploader_5.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Follow same steps and press <strong>Unlock</strong> button, to unlock items
+<img alt="Artella Uploader 6" src="../../../img/faq/lockunlock/uploader_6.png?style=centerme" /></p>
+</blockquote>
+</details>
+<hr />
+<h3 id="plot-twist-lock-unlock-shortcuts"><strong>Plot Twist Lock &amp; Unlock Shortcuts</strong></h3>
+<details class="example" open="open"><summary>Lock &amp; Unlock</summary><div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This method is useful to lock and unlock files that are currently opened in your DCC (Maya, Houdini, etc).</p>
+</div>
+<blockquote>
+<p>Open the file you want to edit in your DCC (we use Maya in this example)
+<img alt="Lock/Unlock 1" src="../../../img/faq/lockunlock/lockunlock_1.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>After doing your changes (and after saving your Maya scene), you just need to press <strong>Lock</strong> button located
+in Plot Twist <strong>Main</strong> shelf.
+<img alt="Lock/Unlock 2" src="../../../img/faq/lockunlock/lockunlock_2.png?style=centerme" />
+<img alt="Plot Twist Save" src="../../../img/tools/shelf/icons/lock_file.png?style=centerme" /></p>
+</blockquote>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In Windows, after locking the file a tray message will appear in the bottom right corner of your screen</p>
+<hr />
+<p><img alt="Lock/Unlock 3" src="../../../img/faq/lockunlock/lockunlock_3.png?style=centerme" /></p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can check if your file is has been locked successfully by pressing <strong>Check Lock/Unlock</strong> button located
+in Plot Twist <strong>Main</strong> shelf.
+<img alt="Lock/Unlock 4" src="../../../img/faq/lockunlock/lockunlock_4.png?style=centerme" />
+<img alt="Plot Twist Check Lock/Unlock" src="../../../img/tools/shelf/icons/lock_check.png?style=centerme" /></p>
+<p>If you have the file locked the following message will appear in top area of Maya viewport:
+<img alt="Lock/Unlock 5" src="../../../img/faq/lockunlock/lockunlock_5.png?style=centerme" /></p>
+<p>Otherwise, following message will appear if the file is not locked by anyone:
+<img alt="Lock/Unlock 6" src="../../../img/faq/lockunlock/lockunlock_6.png?style=centerme" /></p>
+</div>
+<hr />
+<blockquote>
+<p>To unlock the file, you just need to press <strong>Unlock</strong> button located in Plot Twist <strong>Main</strong> shelf.
+<img alt="Lock/Unlock 7" src="../../../img/faq/lockunlock/lockunlock_7.png?style=centerme" />
+<img alt="Plot Twist Unlock" src="../../../img/tools/shelf/icons/unlock_file.png?style=centerme" /></p>
+</blockquote>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>In Windows, after unlocking the file a tray message will appear in the bottom right corner of your screen</p>
+<hr />
+<p><img alt="Lock/Unlock 9" src="../../../img/faq/lockunlock/lockunlock_9.png?style=centerme" /></p>
+</div>
+<hr />
+<blockquote>
+<p>Afer pressing Unlock button a popup window will appear, warning you that if you unlock a file without upload a new 
+version of it to Artella server, all the changes done to that file will be lost. Press Ok, if you are happy with it.
+<img alt="Lock/Unlock 8" src="../../../img/faq/lockunlock/lockunlock_8.png?style=centerme" /></p>
+</blockquote>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>To learn how to Submit new versions of a file to Artella server just follow stpe explained in this section: 
+<strong><a href="../newversion">How to upload new version?</a></strong> </p>
+</div>
+</details>
+<hr />
+<h3 id="artella-webpage"><strong>Artella webpage</strong></h3>
+<details class="example" open="open"><summary>Artella Webpage</summary><div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This is the usual way that Artella has to lock/unlock files. It's not a bad option at all but you will need to 
+manually find the asset file you want to lock in Artella server and lock/unlock it manually.</p>
+</div>
+<blockquote>
+<p>Open your favorite web browser and browse to the Artella page where the file you want to lock/unlock is located.
+<img alt="Artella 1" src="../../../img/faq/lockunlock/artella_1.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<blockquote>
+<p>Right-click on top of the item to open item contextual menu. In this menu you just need to check <strong>Edit Mode</strong> checkbox
+<img alt="Artella 2" src="../../../img/faq/lockunlock/artella_2.png?style=centerme" /></p>
+</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Sometimes, checking <strong>Edit Mode</strong> fails, so you will need to try to check multiple times.</p>
+</div>
+<hr />
+<blockquote>
+<p>After locking the file, you can check that file is locked because your image will appear in the top left border of the file icon
+<img alt="Artella 3" src="../../../img/faq/lockunlock/artella_3.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<p>After doing your changes (and after saving your Maya scene), if you are not happy with your changes you just need
+to:</p>
+<blockquote>
+<p>Right-click on top of the item to open item contextual menu. In this menu you just need to check <strong>Edit Mode</strong> checkbox
+<img alt="Artella 4" src="../../../img/faq/lockunlock/artella_4.png?style=centerme" /></p>
+<p>A Revert window will appear, this window will warn you about the fact that you are going to <strong>revert</strong> your changes. This
+means that the changes you have done will be delete and the file will be restored with the state of the file before you edited it.
+Press Revert button to do unlock the file or Cancel to stop the unlock process.
+<img alt="Artella 5" src="../../../img/faq/lockunlock/artella_5.png?style=centerme" /></p>
+</blockquote>
+<hr />
+<p>Otherwise, if you are happy with your changes, you just need to upload your changes into Artella server. You can 
+do it following steps explained in: <strong><a href="../newversion">How to upload new version?</a></strong> </p>
+<hr />
+<p>After creating a new version, you just need to:</p>
+<blockquote>
+<p>Open contextual menu and uncheck Edit Mode checkbox
+<img alt="Artella 8" src="../../../img/faq/lockunlock/artella_8.png?style=centerme" /></p>
+</blockquote>
+<p>Your new version is uploaded and your file is unlocked so other users can edit it if necessary.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Notice that in Artella you MUST to unlock the file manually after creating a new version. Using Plot Twist
+tools, the unlock operation can be done automatically.</p>
+</div>
+</details>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../savefile/" title="How to save a file?" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                How to save a file?
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../newversion/" title="How to upload a new file version?" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                How to upload a new file version?
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.fae956e7.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

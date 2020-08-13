@@ -1,0 +1,7 @@
+plottwist.files.standin module
+==============================
+
+.. automodule:: plottwist.files.standin
+   :members:
+   :undoc-members:
+   :show-inheritance:

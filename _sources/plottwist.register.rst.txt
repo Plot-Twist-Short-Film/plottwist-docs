@@ -1,0 +1,7 @@
+plottwist.register module
+=========================
+
+.. automodule:: plottwist.register
+   :members:
+   :undoc-members:
+   :show-inheritance:

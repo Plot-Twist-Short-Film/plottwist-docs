@@ -1,0 +1,7 @@
+plottwist.files.groom module
+============================
+
+.. automodule:: plottwist.files.groom
+   :members:
+   :undoc-members:
+   :show-inheritance:

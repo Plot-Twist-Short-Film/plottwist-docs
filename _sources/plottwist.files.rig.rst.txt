@@ -1,0 +1,7 @@
+plottwist.files.rig module
+==========================
+
+.. automodule:: plottwist.files.rig
+   :members:
+   :undoc-members:
+   :show-inheritance:

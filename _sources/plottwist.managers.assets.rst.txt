@@ -1,0 +1,7 @@
+plottwist.managers.assets module
+================================
+
+.. automodule:: plottwist.managers.assets
+   :members:
+   :undoc-members:
+   :show-inheritance:

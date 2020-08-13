@@ -1,0 +1,7 @@
+plottwist.assets.character module
+=================================
+
+.. automodule:: plottwist.assets.character
+   :members:
+   :undoc-members:
+   :show-inheritance:

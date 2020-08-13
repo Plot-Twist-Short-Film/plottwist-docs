@@ -1,0 +1,7 @@
+plottwist.managers.menu module
+==============================
+
+.. automodule:: plottwist.managers.menu
+   :members:
+   :undoc-members:
+   :show-inheritance:

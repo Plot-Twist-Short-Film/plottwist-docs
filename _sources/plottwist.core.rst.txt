@@ -1,0 +1,20 @@
+plottwist.core package
+======================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.core.asset
+   plottwist.core.project
+   plottwist.core.utils
+
+Module contents
+---------------
+
+.. automodule:: plottwist.core
+   :members:
+   :undoc-members:
+   :show-inheritance:

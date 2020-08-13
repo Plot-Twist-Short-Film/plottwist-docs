@@ -1,0 +1,7 @@
+plottwist.files.model module
+============================
+
+.. automodule:: plottwist.files.model
+   :members:
+   :undoc-members:
+   :show-inheritance:

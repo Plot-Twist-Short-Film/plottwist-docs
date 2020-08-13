@@ -1,0 +1,19 @@
+plottwist.assets package
+========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   plottwist.assets.character
+   plottwist.assets.prop
+
+Module contents
+---------------
+
+.. automodule:: plottwist.assets
+   :members:
+   :undoc-members:
+   :show-inheritance:

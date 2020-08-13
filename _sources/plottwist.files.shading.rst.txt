@@ -1,0 +1,7 @@
+plottwist.files.shading module
+==============================
+
+.. automodule:: plottwist.files.shading
+   :members:
+   :undoc-members:
+   :show-inheritance:
