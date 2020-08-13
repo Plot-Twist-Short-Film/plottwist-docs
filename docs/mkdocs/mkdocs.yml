@@ -29,6 +29,7 @@ nav:
       - Assets Manager: pipeline/tools/assetsmanager.md
       - Artella Manager: pipeline/tools/artellamanager.md
       - Artella Uploader: pipeline/tools/artellauploader.md
+      - Light Rigs Manager: pipeline/tools/lightrigsmanager.md
     - Assets:
         - Props: pipeline/assets/props.md
     - Departments:
